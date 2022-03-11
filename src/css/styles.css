@@ -7,12 +7,12 @@ html {
 }
 
 body {
+    font-family: 'Source Sans Pro';
+    font-size: 1rem;
+    text-align: center;
     display: flex;
     flex-direction: column;
     margin: 0;
-    text-align: center;
-    font-family: 'Source Sans Pro';
-    font-size: 1rem;
     color: #404040;
 }
 
@@ -42,14 +42,14 @@ button {
     font-family: inherit;
     font-size: 1rem;
     font-weight: 900;
-    color: white;
     text-transform: uppercase;
     letter-spacing: 1px;
+    color: white;
     padding: .65em;
+    border: 0;
     margin-bottom: 1.5em;
     background-color: #F18119;
     background-image: linear-gradient(to left, #FF713B, #FFA51D);
-    border: 0;
     transform: scale(1);
     transition: transform 0.2s;
 }
@@ -62,10 +62,10 @@ button:focus {
 input {
     font-family: inherit;
     font-size: 1rem;
-    margin-bottom: .75em;
-    padding: .5em;
     text-align: inherit;
+    padding: .5em;
     border: 1px solid #404040;
+    margin-bottom: .75em;
     transform: scale(1);
     transition: transform 0.2s;
 }
@@ -104,10 +104,10 @@ main {
 }
 
 .container-main {
+    max-width: 25rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    max-width: 25rem;
 }
 
 .container-header {
@@ -121,11 +121,11 @@ main {
 .top-text {
     font-size: 0.8rem;
     font-weight: 900;
-    order: -1;
-    margin-top: 0;
     padding-top: 3px;
     border-top: 6px solid #F18119;
     border-image: linear-gradient(to left, #FF713B, #FFA51D) 1;
+    margin-top: 0;
+    order: -1;
 }
 
 .confidential-text {
@@ -142,8 +142,8 @@ main {
 .register-heading,
 .invitation-heading,
 .top-text {
-    color: #F18119;
     text-transform: uppercase;
+    color: #F18119;
 }
 
 .register-heading {
@@ -167,15 +167,15 @@ main {
 
 @media screen and (min-width: 55rem) {
     body {
+        min-height: 100vh;
         flex-direction: row;
         align-content: stretch;
-        min-height: 100vh;
     }
 
     h1 {
         font-size: 3rem;
-        margin: 0;
         padding: 1em 0;
+        margin: 0;
     }
 
     h2 {
