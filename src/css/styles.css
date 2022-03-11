@@ -32,7 +32,7 @@ h3 {
 }
 
 header {
-    background-image: url(../img/dark-ribs.jpg);
+    background-image: url(../img/dark-ribs_s.jpg);
     background-color: #404040;
     background-position: center;
     background-size: cover;
@@ -158,6 +158,10 @@ main {
 @media screen and (min-width: 30rem) {
     html {
         font-size: 115%;
+    }
+
+    header {
+        background-image: url(../img/dark-ribs.jpg);
     }
 }
 
