@@ -1,0 +1,58 @@
+html {
+    font-size: 100%;
+}
+
+body {
+    font-family: 'Source Sans Pro';
+    font-size: 1rem;
+    color: #404040;
+}
+
+h1 {
+    font-size: 2.25rem;
+    font-weight: 400;
+    color: white;
+}
+
+h2 {
+    font-size: 1.3125rem;
+}
+
+h3 {
+    font-size: 1rem;
+}
+
+button {
+    font-family: inherit;
+    font-size: .8rem;
+    font-weight: 900;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+input {
+    font-family: inherit;
+    font-size: 1rem;
+}
+
+.top-text {
+    font-size: 0.7rem;
+    font-weight: 900;
+}
+
+.confidential-text {
+    font-size: .8rem;
+}
+
+.top-text,
+.confidential-text {
+    letter-spacing: 1px;
+}
+
+.register-heading,
+.invitation-heading,
+.top-text {
+    color: #F18119;
+    text-transform: uppercase;
+}
