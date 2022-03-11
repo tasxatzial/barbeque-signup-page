@@ -1,6 +1,6 @@
 # Barbeque sign up page
 
-A simple sign up page for a barbeque webinar.
+A simple sign up page for a barbeque webinar. See it live [here](https://tasxatzial.github.io/barbeque-signup-page).
 
 ## Implementation
 
