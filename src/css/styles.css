@@ -2,7 +2,15 @@ html {
     font-size: 100%;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 body {
+    display: flexbox;
+    flex-direction: column;
+    margin: 0;
+    text-align: center;
     font-family: 'Source Sans Pro';
     font-size: 1rem;
     color: #404040;
@@ -12,6 +20,7 @@ h1 {
     font-size: 2.25rem;
     font-weight: 400;
     color: white;
+    padding: 1.5em 0;
 }
 
 h2 {
@@ -30,25 +39,69 @@ header {
 
 button {
     font-family: inherit;
-    font-size: .8rem;
+    font-size: 0.8rem;
     font-weight: 900;
     color: white;
     text-transform: uppercase;
     letter-spacing: 1px;
+    padding: .5em;
+    margin-bottom: 1.5em;
 }
 
 input {
     font-family: inherit;
     font-size: 1rem;
+    margin-bottom: .75em;
+    padding: .5em;
+    text-align: inherit;
+}
+
+form {
+    width: 80%;
+    max-width: 20rem;
+    margin: 0 auto;
+}
+
+form > * {
+    width: 100%;
+}
+
+main {
+    padding-top: 1em;
+    padding-bottom: 1.5em;
+}
+
+.main-title {
+    margin-bottom: 0;
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.container-main {
+    max-width: 25rem;
+}
+
+.container-header {
+    max-width: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .top-text {
     font-size: 0.7rem;
     font-weight: 900;
+    order: -1;
+    margin-top: 0;
 }
 
 .confidential-text {
     font-size: .8rem;
+    max-width: 15rem;
+    margin: 0 auto;
 }
 
 .top-text,
@@ -61,4 +114,8 @@ input {
 .top-text {
     color: #F18119;
     text-transform: uppercase;
+}
+
+.register-heading {
+    margin-top: 0;
 }
