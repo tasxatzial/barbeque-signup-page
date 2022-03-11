@@ -33,6 +33,7 @@ h3 {
 
 header {
     background-image: url(../img/dark-ribs.jpg);
+    background-color: #404040;
     background-position: center;
     background-size: cover;
 }
@@ -46,6 +47,9 @@ button {
     letter-spacing: 1px;
     padding: .5em;
     margin-bottom: 1.5em;
+    background-color: #F18119;
+    background-image: linear-gradient(to left, #FF713B, #FFA51D);
+    border: 0;
 }
 
 input {
@@ -54,6 +58,7 @@ input {
     margin-bottom: .75em;
     padding: .5em;
     text-align: inherit;
+    border: 1px solid #404040;
 }
 
 form {
@@ -64,6 +69,7 @@ form {
 
 form > * {
     width: 100%;
+    border-radius: 7px;
 }
 
 main {
@@ -73,6 +79,10 @@ main {
 
 .main-title {
     margin-bottom: 0;
+}
+
+.main-text {
+    margin-bottom: 1.5em;
 }
 
 .container {
@@ -89,6 +99,7 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
 }
 
 .top-text {
@@ -96,6 +107,9 @@ main {
     font-weight: 900;
     order: -1;
     margin-top: 0;
+    padding-top: 2px;
+    border-top: 5px solid #F18119;
+    border-image: linear-gradient(to left, #FF713B, #FFA51D) 1;
 }
 
 .confidential-text {
