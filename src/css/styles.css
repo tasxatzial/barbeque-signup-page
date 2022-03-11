@@ -18,17 +18,17 @@ body {
 
 h1 {
     font-size: 2.25rem;
-    font-weight: 400;
+    font-weight: 300;
     color: white;
     padding: 1.5em 0;
 }
 
 h2 {
-    font-size: 1.3125rem;
+    font-size: 1.4rem;
 }
 
 h3 {
-    font-size: 1rem;
+    font-size: 1.1rem;
 }
 
 header {
@@ -40,12 +40,12 @@ header {
 
 button {
     font-family: inherit;
-    font-size: 0.8rem;
+    font-size: 1rem;
     font-weight: 900;
     color: white;
     text-transform: uppercase;
     letter-spacing: 1px;
-    padding: .5em;
+    padding: .65em;
     margin-bottom: 1.5em;
     background-color: #F18119;
     background-image: linear-gradient(to left, #FF713B, #FFA51D);
@@ -103,12 +103,12 @@ main {
 }
 
 .top-text {
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     font-weight: 900;
     order: -1;
     margin-top: 0;
-    padding-top: 2px;
-    border-top: 5px solid #F18119;
+    padding-top: 3px;
+    border-top: 6px solid #F18119;
     border-image: linear-gradient(to left, #FF713B, #FFA51D) 1;
 }
 
@@ -132,4 +132,9 @@ main {
 
 .register-heading {
     margin-top: 0;
+}
+
+.invitation-heading {
+    font-size: 1.4rem;
+    word-spacing: 1px;
 }
