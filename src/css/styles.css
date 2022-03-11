@@ -22,6 +22,12 @@ h3 {
     font-size: 1rem;
 }
 
+header {
+    background-image: url(../img/dark-ribs.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
 button {
     font-family: inherit;
     font-size: .8rem;
