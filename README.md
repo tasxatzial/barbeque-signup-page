@@ -6,7 +6,7 @@ A simple sign up page for a barbeque webinar. See it live [here](https://tasxatz
 
 This project demonstrates the following concepts/techniques:
 
-* Responsive website.
+* Responsive website (CSS flexbox).
 * Mobile first design.
 
 ## Run locally
