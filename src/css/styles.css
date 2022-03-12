@@ -118,7 +118,7 @@ main {
     align-items: center;
 }
 
-.top-text {
+.header-top-text {
     font-size: 0.8rem;
     font-weight: 900;
     padding-top: 3px;
@@ -128,29 +128,29 @@ main {
     order: -1;
 }
 
-.confidential-text {
+.main-confidential {
     font-size: .8rem;
     max-width: 15rem;
     margin: 0 auto;
 }
 
-.top-text,
-.confidential-text {
+.header-top-text,
+.main-confidential {
     letter-spacing: 1px;
 }
 
-.register-heading,
-.invitation-heading,
-.top-text {
+.main-register-heading,
+.header-invitation,
+.header-top-text {
     text-transform: uppercase;
     color: #F18119;
 }
 
-.register-heading {
+.main-register-heading {
     margin-top: 0;
 }
 
-.invitation-heading {
+.header-invitation {
     margin-bottom: 2em;
     word-spacing: 1px;
 }
@@ -194,12 +194,12 @@ main {
         height: 100%;
     }
 
-    .invitation-heading {
+    .header-invitation {
         margin-top: 0;
     }
 
-    .top-text,
-    .invitation-heading {
+    .header-top-text,
+    .header-invitation {
         margin-bottom: auto;
     }
 }
