@@ -54,9 +54,12 @@ button {
     transition: transform 0.2s;
 }
 
-button:hover,
-button:focus {
-    transform: scale(1.03);
+button:hover {
+    transform: scale(1.02);
+}
+
+button:active {
+    background-image: linear-gradient(to left, green, green);
 }
 
 input {
@@ -71,7 +74,7 @@ input {
 }
 
 input:focus {
-    transform: scale(1.03);
+    transform: scale(1.02);
 }
 
 form {
