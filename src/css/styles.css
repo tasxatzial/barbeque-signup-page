@@ -16,6 +16,12 @@ body {
     color: #404040;
 }
 
+/*============== TEXT ==============*/
+
+abbr {
+    text-decoration: none;
+}
+
 h1 {
     font-size: 2.25rem;
     font-weight: 300;
@@ -31,98 +37,12 @@ h3 {
     font-size: 1.1rem;
 }
 
-header {
-    background-image: url(../img/dark-ribs_s.jpg);
-    background-color: #404040;
-    background-position: center;
-    background-size: cover;
-}
-
-button {
-    font-family: inherit;
-    font-size: 1rem;
-    font-weight: 900;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    color: white;
-    padding: .65em;
-    border: 0;
-    margin-bottom: 1.5em;
-    background-color: #F18119;
-    background-image: linear-gradient(to left, #FF713B, #FFA51D);
-    transform: scale(1);
-    transition: transform 0.2s;
-}
-
-abbr {
-    text-decoration: none;
-}
-
-button:hover {
-    transform: scale(1.02);
-}
-
-button:active {
-    background-image: linear-gradient(to left, green, green);
-}
-
-input {
-    font-family: inherit;
-    font-size: 1rem;
-    text-align: inherit;
-    padding: .5em;
-    border: 1px solid #404040;
-    margin-bottom: .75em;
-    transform: scale(1);
-    transition: transform 0.2s;
-}
-
-input:focus {
-    transform: scale(1.02);
-}
-
-form {
-    width: 80%;
-    max-width: 20rem;
-    margin: 0 auto;
-}
-
-form > * {
-    width: 100%;
-    border-radius: 7px;
-}
-
-main {
-    padding-top: 1em;
-    padding-bottom: 1.5em;
-}
-
 .main-title {
     margin-bottom: 0;
 }
 
 .main-text {
     margin-bottom: 1.5em;
-}
-
-.container {
-    width: 85%;
-    margin: 0 auto;
-}
-
-.container-main {
-    max-width: 25rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.container-header {
-    max-width: 30rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
 }
 
 .header-top-text {
@@ -162,6 +82,92 @@ main {
     word-spacing: 1px;
 }
 
+/*============== FORM ==============*/
+
+button {
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: white;
+    padding: .65em;
+    border: 0;
+    margin-bottom: 1.5em;
+    background-color: #F18119;
+    background-image: linear-gradient(to left, #FF713B, #FFA51D);
+    transform: scale(1);
+    transition: transform 0.2s;
+}
+
+button:hover {
+    transform: scale(1.02);
+}
+
+button:active {
+    background-image: linear-gradient(to left, green, green);
+}
+
+input {
+    font-family: inherit;
+    font-size: 1rem;
+    text-align: inherit;
+    padding: .5em;
+    border: 1px solid #404040;
+    margin-bottom: .75em;
+    transform: scale(1);
+    transition: transform 0.2s;
+}
+
+input:focus {
+    transform: scale(1.02);
+}
+
+form {
+    width: 80%;
+    max-width: 20rem;
+    margin: 0 auto;
+}
+
+form > * {
+    width: 100%;
+    border-radius: 7px;
+}
+
+/*============== CONTAINERS ==============*/
+
+header {
+    background-image: url(../img/dark-ribs_s.jpg);
+    background-color: #404040;
+    background-position: center;
+    background-size: cover;
+}
+
+main {
+    padding-top: 1em;
+    padding-bottom: 1.5em;
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.container-main {
+    max-width: 25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container-header {
+    max-width: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
 @media screen and (min-width: 30rem) {
     html {
         font-size: 115%;
@@ -179,6 +185,8 @@ main {
         align-content: stretch;
     }
 
+    /*============== TEXT ==============*/
+
     h1 {
         font-size: 3rem;
         padding: 1em 0;
@@ -188,6 +196,17 @@ main {
     h2 {
         font-size: 1.5rem;
     }
+
+    .header-invitation {
+        margin-top: 0;
+    }
+
+    .header-top-text,
+    .header-invitation {
+        margin-bottom: auto;
+    }
+
+    /*============== CONTAINERS ==============*/
 
     header {
         width: 55%;
@@ -199,14 +218,5 @@ main {
 
     .container {
         height: 100%;
-    }
-
-    .header-invitation {
-        margin-top: 0;
-    }
-
-    .header-top-text,
-    .header-invitation {
-        margin-bottom: auto;
     }
 }
