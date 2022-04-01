@@ -4,7 +4,11 @@ A simple sign up page for a barbeque webinar. See it live [here](https://tasxatz
 
 ## Implementation
 
-This project demonstrates the following concepts/techniques:
+This project was built with:
+
+* Plain HTML, CSS.
+
+### Frontend
 
 * Responsive website (CSS flexbox).
 * Mobile first design.
