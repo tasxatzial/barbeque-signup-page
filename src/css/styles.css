@@ -8,12 +8,15 @@ html {
 
 body {
     font-family: 'Source Sans Pro';
-    font-size: 1rem;
     text-align: center;
     display: flex;
     flex-direction: column;
     margin: 0;
     color: #404040;
+}
+
+strong {
+    font-weight: 900;
 }
 
 /*============== TEXT ==============*/
@@ -27,6 +30,7 @@ h1 {
     font-weight: 300;
     color: white;
     padding: 2em 0;
+    width: 100%; /* fixes IE11 overflow */
 }
 
 h2 {
@@ -42,6 +46,7 @@ h3 {
 }
 
 .main-text {
+    width: 100%; /* fixes IE11 overflow */
     margin-bottom: 1.5em;
 }
 
@@ -58,7 +63,6 @@ h3 {
 .main-confidential {
     font-size: .8rem;
     max-width: 15rem;
-    margin: 0 auto;
 }
 
 .header-top-text,
@@ -153,19 +157,20 @@ main {
     margin: 0 auto;
 }
 
+.container-header,
 .container-main {
-    max-width: 25rem;
     display: flex;
     flex-direction: column;
+    align-items: center;
+}
+
+.container-main {
+    max-width: 25rem;
     justify-content: center;
 }
 
 .container-header {
     max-width: 30rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
 }
 
 @media screen and (min-width: 30rem) {
@@ -180,9 +185,9 @@ main {
 
 @media screen and (min-width: 55rem) {
     body {
+        height: 100px; /* fixes IE11 not filling the viewport height */
         min-height: 100vh;
         flex-direction: row;
-        align-content: stretch;
     }
 
     /*============== TEXT ==============*/
