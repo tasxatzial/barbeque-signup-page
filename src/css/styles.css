@@ -104,12 +104,15 @@ button {
     transition: transform 0.2s;
 }
 
+button:focus,
 button:hover {
+    color: #404040;
     transform: scale(1.02);
 }
 
 button:active {
-    background-image: linear-gradient(to left, green, green);
+    background-color: #AABA9E;
+    background-image: none;
 }
 
 input {
@@ -124,7 +127,7 @@ input {
 }
 
 input:focus {
-    transform: scale(1.02);
+    outline: 2px solid #404040;
 }
 
 form {
