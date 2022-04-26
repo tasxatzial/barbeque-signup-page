@@ -144,7 +144,7 @@ form > * {
 /*============== CONTAINERS ==============*/
 
 header {
-    background-image: url(../img/dark-ribs_s.jpg);
+    background-image: url(../img/dark-ribs.jpg);
     background-color: #404040;
     background-position: center;
     background-size: cover;
@@ -176,13 +176,9 @@ main {
     max-width: 30rem;
 }
 
-@media screen and (min-width: 30rem) {
+@media screen and (min-width: 40rem) {
     html {
-        font-size: 115%;
-    }
-
-    header {
-        background-image: url(../img/dark-ribs.jpg);
+        font-size: 110%;
     }
 }
 
