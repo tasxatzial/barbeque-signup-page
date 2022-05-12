@@ -104,7 +104,6 @@ button {
     transition: transform 0.2s;
 }
 
-button:focus,
 button:hover {
     color: #404040;
     transform: scale(1.02);
