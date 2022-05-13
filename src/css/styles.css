@@ -141,6 +141,10 @@ form > * {
 
 /*============== CONTAINERS ==============*/
 
+body > * {
+    min-width: 15em;
+}
+
 header {
     background-image: url(../img/dark-ribs.jpg);
     background-color: #404040;
