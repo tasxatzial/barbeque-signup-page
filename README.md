@@ -16,3 +16,9 @@ This project was built with:
 ## Run locally
 
 Download the repo and open 'src/index.html' in your browser.
+
+## Screenshots
+
+* Original design: See [mockups](mockups/).
+
+* Final result -with improvements-: See [screenshots](screenshots/).
