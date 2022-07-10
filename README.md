@@ -1,24 +1,20 @@
-# Barbeque sign up page
+# Barbeque sign up webpage
 
-A simple sign up page for a barbeque webinar. See it live [here](https://tasxatzial.github.io/barbeque-signup-page).
+A simple sign up webpage for a barbeque webinar.
+
+This project is part of a course on [Scrimba](https://scrimba.com). [Design specs](https://xd.adobe.com/spec/3bcaad42-bd8a-415e-6274-08b282cfb769-4dfb/) and starter files are provided by [Kevin Powell](https://github.com/kevin-powell/reponsive-web-design-bootcamp).
 
 ## Implementation
 
-This project was built with:
-
-* Plain HTML, CSS.
-
-### Frontend
-
-* Responsive website (CSS flexbox).
+* Responsive (flexbox).
 * Mobile first design.
+
+While my implementation follows the course content loosely, it also incorporates improvements that address most of the underlying issues.
 
 ## Run locally
 
-Download the repo and open 'src/index.html' in your browser.
+Download the 'src' folder and open 'index.html' in the browser.
 
 ## Screenshots
 
-* Original design: See [mockups](mockups/).
-
-* Final result -with improvements-: See [screenshots](screenshots/).
+See [screenshots](screenshots/).
