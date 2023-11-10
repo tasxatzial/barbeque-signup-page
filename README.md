@@ -11,6 +11,10 @@ This project is part of a course on [Scrimba](https://scrimba.com). [Design spec
 
 While my implementation follows the course content loosely, it also incorporates improvements that address most of the underlying issues.
 
+## Dependencies
+
+None. The project uses only HTML, CSS.
+
 ## Run locally
 
 Download the 'src' folder and open 'index.html' in the browser.
