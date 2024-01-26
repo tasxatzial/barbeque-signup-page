@@ -6,10 +6,11 @@ This project is part of a course on [Scrimba](https://scrimba.com). [Design spec
 
 ## Implementation
 
-* Responsive (flexbox).
+* Responsive.
+* Accessible + screen reader friendly.
 * Mobile first design.
 
-While my implementation follows the course content loosely, it also incorporates improvements that address most of the underlying issues.
+While my implementation follows the course content loosely, it isn't an exact match of the design or the implementation shown in the course. I've made some intentional changes, with the aim of improving upon the provided design.
 
 ## Dependencies
 
