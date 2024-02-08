@@ -26,7 +26,7 @@ abbr {
 }
 
 h1 {
-    font-size: 2.25rem;
+    font-size: 3rem;
     font-weight: 300;
     color: white;
     padding: 2em 0;
@@ -34,7 +34,7 @@ h1 {
 }
 
 h2 {
-    font-size: 1.35rem;
+    font-size: 1.5rem;
 }
 
 h3 {
@@ -70,10 +70,8 @@ h3 {
     letter-spacing: 1px;
 }
 
-.main-register-heading,
 .header-invitation,
 .header-top-text {
-    text-transform: uppercase;
     color: #F18119;
 }
 
@@ -86,15 +84,18 @@ h3 {
     word-spacing: 1px;
 }
 
+.uppercase {
+    text-transform: uppercase;
+}
+
 /*============== FORM ==============*/
 
 button {
     font-family: inherit;
     font-size: 1rem;
     font-weight: 900;
-    text-transform: uppercase;
     letter-spacing: 1px;
-    color: white;
+    color: #404040;
     padding: .65em;
     border: 0;
     margin-bottom: 1.5em;
@@ -105,13 +106,12 @@ button {
 }
 
 button:hover {
-    color: #404040;
     transform: scale(1.02);
 }
 
 button:active {
-    background-color: #ff871d;
-    background-image: none;
+    position: relative;
+    top: 1px;
 }
 
 input {
@@ -125,8 +125,10 @@ input {
     transition: transform 0.2s;
 }
 
-input:focus {
-    outline: 2px solid #404040;
+input:focus,
+button:focus-visible {
+    outline: 3px dashed #404040;
+    outline-offset: 1px;
 }
 
 form {
@@ -188,7 +190,6 @@ main {
     /*============== TEXT ==============*/
 
     h1 {
-        font-size: 3rem;
         padding: 1em 0;
         margin: 0;
     }
