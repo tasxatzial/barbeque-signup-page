@@ -2,15 +2,21 @@
 
 A simple sign up webpage for a barbeque webinar.
 
-This project is part of a course on [Scrimba](https://scrimba.com). [Design specs](https://xd.adobe.com/spec/3bcaad42-bd8a-415e-6274-08b282cfb769-4dfb/) and starter files are provided by [Kevin Powell](https://github.com/kevin-powell/reponsive-web-design-bootcamp).
+This project is part of the [Learn Responsive Web Design](https://scrimba.com/learn/responsive) course on [Scrimba](https://scrimba.com).
 
 ## Implementation
 
 * Responsive.
 * Accessible + screen reader friendly.
-* Mobile first design.
+* Mobile first approach.
 
-While my implementation follows the course content loosely, it isn't an exact match of the design or the implementation shown in the course. I've made some intentional changes, with the aim of improving upon the provided design.
+While my implementation follows the course content loosely, it isn't an exact match of the design or the implementation shown in the course. I've made some intentional changes, with the aim of improving upon the provided design. Here's a non-exhaustive list:
+
+* Font sizes have been adjusted to make them more legible and consistent across the page.
+* Contrast issues have been fixed.
+* Responsiveness issues have been fixed.
+* Element spacing and positioning have been adjusted.
+* Accessibility features have been added/fixed.
 
 ## Dependencies
 
