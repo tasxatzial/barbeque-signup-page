@@ -29,7 +29,7 @@ h1 {
     font-size: 3rem;
     font-weight: 300;
     color: white;
-    padding: 2em 0;
+    padding: 1.25em 0;
     width: 100%; /* fixes IE11 overflow */
 }
 
@@ -42,10 +42,13 @@ h3 {
 }
 
 .main-title {
+    font-size: 1.75rem;
     margin-bottom: 0;
 }
 
 .main-text {
+    font-size: 1.1rem;
+    line-height: 1.35;
     width: 100%; /* fixes IE11 overflow */
     margin-bottom: 1.5em;
 }
@@ -76,6 +79,7 @@ h3 {
 }
 
 .main-register-heading {
+    color: #bc5b00;
     margin-top: 0;
 }
 
